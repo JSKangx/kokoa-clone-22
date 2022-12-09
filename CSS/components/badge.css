@@ -1,0 +1,32 @@
+.badge {
+  background-color: #ff6229;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noti-dot {
+  display: block;
+  background-color: #ff6229;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
+
+.noti-dot-setting {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+}
+
+.nav__noti-dot {
+  position: absolute;
+  right: -5px;
+  top: 1px;
+}

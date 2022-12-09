@@ -19,28 +19,18 @@
 }
 
 .nav_notification {
-  background-color: #ff6229;
-  color: white;
-  font-weight: 500;
-  font-size: 14px;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 16px;
   top: -8px;
 }
 
 .nav__noti-dot {
+  display: block;
   background-color: #ff6229;
   width: 4px;
   height: 4px;
   border-radius: 2px;
+  position: absolute;
   right: -5px;
   top: 1px;
-  position: absolute;
-  display: block;
 }
