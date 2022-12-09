@@ -1,7 +1,7 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: var(--main-border);
   padding-bottom: 20px;
 }
 
@@ -17,4 +17,8 @@
 
 .find-icons__icon span {
   margin-top: 15px;
+}
+
+.recommended-friends {
+  margin-top: ;
 }
