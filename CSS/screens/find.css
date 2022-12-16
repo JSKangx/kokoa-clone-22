@@ -35,7 +35,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: var(--sub-border);
+}
+
+.open-post:last-child {
+  border-bottom: none;
 }
 
 .open-post__title {

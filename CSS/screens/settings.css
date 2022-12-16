@@ -1,0 +1,36 @@
+.settings-list {
+  padding-bottom: 45px;
+  border-bottom: ;
+}
+
+.settings__setting {
+  padding: 22px 0;
+  border-bottom: var(--sub-border);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+.settings__setting-icon {
+  width: 45px;
+  font-size: 24px;
+}
+
+.settings__setting-column {
+  display: flex;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.7;
+}
+
+.full-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
