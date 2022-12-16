@@ -17,8 +17,21 @@
   margin-top: 20px;
 }
 
-.more-suggestions i {
-  color: var(--yellow);
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.more-suggestions__icon-background {
+  background-color: var(--yellow);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(209, 206, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .more-suggestions .icon-row__icon span {
