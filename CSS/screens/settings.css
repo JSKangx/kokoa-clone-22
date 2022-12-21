@@ -28,6 +28,10 @@
   opacity: 0.7;
 }
 
+.menus {
+  padding: 0px var(--horizontal-space);
+}
+
 .full-divider {
   height: 1px;
   width: 100%;
